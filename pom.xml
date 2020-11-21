@@ -214,7 +214,7 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Snapshot Repository</name>
-      <url>http://localhost:8081/repository/maven-public/</url>
+      <url>http://192.168.1.56:8081/repository/maven-public/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -229,12 +229,12 @@
     <repository>
       <id>releases</id>
       <name>Nexus Release Repository</name>
-      <url>http://localhost:8081/repository/maven-releases/</url>
+      <url>http://192.168.1.56:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>Nexus Snapshot Repository</name>
-      <url>http://localhost:8081/repository/maven-snapshots/</url>
+      <url>http://192.168.1.56:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
