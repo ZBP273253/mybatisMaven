@@ -28,7 +28,7 @@
 	*/
 	function add(){
 	$("#add").click(function(){
-		getClas();
+		
 		var formData = new FormData();//这里需要实例化一个FormData来进行文件上传
 		formData.append("file",$("#head")[0].files[0]);
 		//formData.append("student", JSON.stringify(student));
@@ -199,6 +199,7 @@
  $(function(){
 	
 	$("#addStudent").click(function(){
+		getClas();
 		$("#AddDiv").show();//显示
 		$("#updateDiv").hide();//隐藏
 	})
